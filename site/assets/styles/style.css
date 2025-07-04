@@ -8,11 +8,19 @@ body {
     font-style: normal;
 }
 
+header.sb, main.sb{
+    max-width: 100%;
+}
+
 header.sb.advanced,
 header.sb.advanced .nav-header-container,
 .infinite-scroller,
 main .main-body-wrapper .left-sidebar-wrapper {
     background: #11112A;
+}
+
+header.sb.advanced .main-header-container{
+    box-shadow: none;
 }
 
 body .hamburger-menu{
@@ -42,4 +50,8 @@ header.sb.advanced .nav-header-container{
 .header .btn.btn-basic, button.btn-basic{
     background: 0 0;
     border: 2px solid rgba(227, 239, 244, 0.1);
+}
+
+.header .btn.btn-basic, button.btn-basic{
+    box-shadow: none;
 }
