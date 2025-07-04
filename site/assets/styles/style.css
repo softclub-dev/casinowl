@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+body {
+    background: #070707;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+header.sb.advanced,
+header.sb.advanced .nav-header-container,
+.infinite-scroller,
+main .main-body-wrapper .left-sidebar-wrapper {
+    background: #11112A;
+}
+
+body .hamburger-menu{
+    background: #141f3c!important;
+}
+
+.casino-list-container.square-buttons .list-wrapper .menu-item.active{
+    background: #896FFF!important;
+}
+
+.nav-box-item{
+    background:  #1E1B3A;
+}
+
+.casino-left-sidebar .left-sidebar-wrapper .left-sidebar .nav-info-container .active .nav-box-item{
+    background: #896FFF;
+}
+
+header.sb.advanced .nav-header-container{
+    box-shadow: none;
+}
+
+.header .btn.btn-transparent, button.btn-transparent{
+    background: #896FFF;
+}
+
+.header .btn.btn-basic, button.btn-basic{
+    background: 0 0;
+    border: 2px solid rgba(227, 239, 244, 0.1);
+}
