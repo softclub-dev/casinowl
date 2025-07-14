@@ -55,3 +55,52 @@ header.sb.advanced .nav-header-container{
 .header .btn.btn-basic, button.btn-basic{
     box-shadow: none;
 }
+
+header.sb.advanced .main-header-container .time-box {
+    min-width: 75px;
+    text-align: center;
+}
+
+body .modal-wrapper.sign-up-wrapper .secondary-tabs .tab.active{
+    background: #896FFF;
+}
+
+body .sb-close:before,
+body .modal-wrapper .sign-in-container .forgot-btn,
+body .modal-wrapper .sign-in-container .bottom-text a{
+    color: #896FFF;
+}
+
+.sign-in-container{
+    background: #141f3c
+}
+
+body .btn.btn-basic:hover, button.btn-basic:hover{
+    color: #fff;
+    background: #896FFF;
+}
+
+body .hamburger-menu .top-section{
+    background-image: linear-gradient(105deg, rgb(137, 111, 256) -60%, rgba(21, 29, 49, 0) 35%) !important;
+}
+
+.hamburger-menu .top-section::before {
+    background-image: linear-gradient(rgb(137, 111, 256), rgb(137, 111, 256));
+}
+
+span.icon-box{
+    background-image: linear-gradient(rgb(137, 111, 256), rgb(137, 111, 256));
+}
+
+body .modal-wrapper.sign-up-wrapper .secondary-tabs .tab{
+    color: #896FFF;
+    border: 1px solid #896FFF;
+}
+
+body .user-section .btn.btn-basic.small::before{
+    font-family: inherit !important;
+}
+
+body input.dark, select{
+    border: 1px solid rgb(137, 111, 255);
+}
