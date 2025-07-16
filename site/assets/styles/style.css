@@ -108,7 +108,9 @@ body input.dark, select{
 body .profile-main-content .panel-main-info .right-section .field-box{
     width: 190px;
 }
-
+body .sb-popup .main-content {
+    background: #141f3c
+}
 
 body .sb-icon.sb-inline{
     background: rgb(137, 111, 255);
